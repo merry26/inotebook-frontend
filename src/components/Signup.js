@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 import { Link } from "react-router-dom";
-// import {BASE_URL} from './url';
+import {BASE_URL} from './url';
 
 const Signup = () => {
     const [credentials, setCredentials] = useState({ name:"", email: "", password: "", cpassword:""});
@@ -19,7 +19,7 @@ const Signup = () => {
 
         const { name, email, password } = credentials;
 
-        const response = await fetch('http://localhost:5000/auth/createUser', {
+        const response = await fetch(`${BASE_URL}/auth/createUser`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
