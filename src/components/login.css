@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color:black;
+  color: white; */
+}
+h2{
+
+  margin-top: 7vh;
+}
+.home-p{
+  text-align: center;
+  margin-bottom: 4vh;
+}
+.image-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  /* align-items: center; Center vertically */
+   /* Optionally, you can set a height to center vertically within the viewport */
+   margin-top: 10vh;
+  
+}
+
+.centered-image {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+  max-height: 100%; /* Ensure image doesn't exceed its container */
+  /* border: 0.5px solid wheat; */
+}
+.nav1{
+  margin: 0;
+  padding: 0;
+  
+}
+.username{
+  padding: 2px;
+  color: white;
+  margin-right: 20px;
+  margin-top: 7px;
+  font-size:large;
+}
+.navbar-brand{
+  border-radius: 30px;
+}
+.about1{
+  /* text-align: right;
+  justify-content:end;
+  align-items: end; */
+  margin-top: 50px;
+  /* Remove default margin */
+  padding: 8px;
+ max-width: "600px";
+}
+.change{
+  width: 100vh;
+  height: 100%;
+  text-align: right;
+}
+.about-pg{
+  display: flex;
+  flex-direction: row; 
+  flex: 1; /* Set flex value to 1 (equal distribution of space among flex items) */
+  margin-right: 10px; /* Set margin to 10px for all sides */
+}
+.about-img2{
+ margin-right: 0; 
+}
+.footer{
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+ .signup{
+  margin-top: 5vh;
+  margin-bottom:5vh ;
+  padding: 20px;
+ }
+ .home{
+  background-color: black; /* Example background color */
+  color: beige;
+}
+.about-bg{
+  background-color:rgb(190, 173, 189);
+  margin-bottom: 11vh;
+}
+.about-img2,.about-img1{
+border: 1px solid black;
+}
+/* component background -notes.js */
+.notes-bg{
+  background-color: white;
+  color: black;
+}
+/* .card-title, .card-text{
+
+  text-align: right;
+  font-weight: 500;
+} */
+.card, .card-img{
+ max-width: fit-content;
+  /* margin: 2px; */
+}
+.arrange{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+/* image in noteitem */
+.nt-b{
+  border: none;
+  border: white;
+}
+.login-form,.signup{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border: 1px solid black;
+  padding: 10vh;
+}
+.signup{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border: 1px solid black;
+  padding: 20px;
+}
